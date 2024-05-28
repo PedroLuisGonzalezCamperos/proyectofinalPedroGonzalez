@@ -1,0 +1,351 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+p {
+  font-family: "comic";
+  font-size: 25px;
+  text-align: justify;
+}
+
+h2 {
+  font-family: "comic";
+  font-weight: bold;
+}
+
+nav div {
+  background-color: springgreen;
+}
+
+/*aquí comienza estilos del menu de inicio*/
+.textoNavbar {
+  color: black;
+}
+
+.navbar-nav a:hover {
+  background-color: rgb(138, 239, 100);
+  background-color: grey;
+}
+
+.nav-link {
+  color: black;
+  font-size: 20px;
+}
+
+/*aquí termina estilos del menu de inicio*/
+/*aquí comienza parrafo de presentación*/
+.parrafoinicial {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+/*aquí termina parrafo de presentación*/
+/*aquí comienza fila 1*/
+.tituloClasesparticulares {
+  text-align: center;
+}
+
+.grilla1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 450px;
+}
+.grilla1 .imagenClasesparticulares {
+  padding: 10px;
+  background-image: url(Assets/chica\ recibiendo\ clase\ online\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+.grilla1 .textoClasesparticulares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grilla1 .textoClasesparticulares p {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*aquí termina fila 1*/
+/*Aquí comienza fila 2*/
+.tituloResumenes {
+  text-align: center;
+}
+
+.grilla2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 450px;
+}
+.grilla2 .imagenResumenes {
+  background-image: url(Assets/imagen\ nueva\ resumenes.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+.grilla2 .textoResumenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grilla2 .textoResumenes p {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*Aquí termina fila 2*/
+/*Aquí comienza fila 3*/
+.tituloGuias {
+  text-align: center;
+}
+
+.grilla3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 450px;
+}
+.grilla3 .imagenGuias {
+  background-image: url(Assets/imagen\ para\ guías.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+.grilla3 .textoGuias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grilla3 .textoGuias p {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*Aquí termina fila 3*/
+/*Aquí comienza fila 4*/
+.tituloContactos {
+  text-align: center;
+}
+
+.grilla4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 450px;
+}
+.grilla4 .imagenContactos {
+  background-image: url(Assets/Imagen\ contactos.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-right: 50px;
+  border-radius: 50px;
+}
+.grilla4 .textoContactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grilla4 .textoContactos p {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*Aquí termina fila 4*/
+/*Inician mediaqueries*/
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+  .grilla1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 450px 1fr;
+  }
+  .grilla2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 450px;
+  }
+  .grilla3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 450px 1fr;
+  }
+  .grilla4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 450px;
+  }
+}
+/*Terminan mediaqueries*/
+/*Inicio Footer*/
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/*Fin Footer*/
+a {
+  box-shadow: 0 5px 26px 8px rgba(0, 0, 0, 0.27);
+}
+
+.comprar {
+  text-align: center;
+  padding: 10px;
+}
+.comprar a:hover {
+  background-color: grey;
+}
+.comprar a {
+  background-color: rgb(138, 239, 100);
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.grillaResumenes {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+}
+.grillaResumenes div p {
+  font-size: 30px;
+}
+
+.resumen2 {
+  text-align: center;
+}
+.resumen2 p {
+  font-size: 25px;
+}
+
+.guia {
+  font-size: 35px;
+}
+
+.item {
+  text-align: center;
+}
+.item img {
+  border-radius: 50px;
+}
+.item p {
+  margin-left: 130px;
+  margin-right: 130px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.precio {
+  text-align: center;
+}
+.precio img {
+  border-radius: 25px;
+  border: 4px solid black;
+}
+.precio p {
+  font-size: 25px;
+}
+.precio a:hover {
+  background-color: grey;
+}
+.precio a {
+  background-color: rgb(138, 239, 100);
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.textoResumenes p {
+  text-align: center;
+}
+
+.guia {
+  text-align: center;
+}
+.guia p {
+  font-size: 20px;
+}
+.guia a:hover {
+  background-color: grey;
+}
+.guia a {
+  background-color: rgb(138, 239, 100);
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.presentacionguias {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.formulario3 {
+  display: flex;
+  justify-content: center;
+}
+.formulario3 a {
+  background-color: rgb(138, 239, 100);
+  padding: 5px;
+  text-decoration: none;
+}
+.formulario3 a:hover {
+  background-color: grey;
+}
+.formulario3 form {
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 15px;
+  width: 40%;
+}
+
+.enviarContacto {
+  text-align: center;
+}
+
+.navbar-nav {
+  margin-right: 100px;
+}
+
+.textoBarra {
+  background-color: rgb(138, 239, 100);
+  align-content: center;
+}
+
+.navbar-nav {
+  margin-left: 300px;
+}
+
+.enviarContacto a {
+  background-color: rgb(138, 239, 100);
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.enviarContacto a:hover {
+  background-color: grey;
+}
+
+.presentacionContactos {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.cajaTexto {
+  text-align: center;
+}
+
+.textoNavbar {
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */
