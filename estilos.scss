@@ -11,7 +11,7 @@ p {
 
 }
 
-h2 {
+h2, h3 {
   font-family: "comic";
   font-weight: bold;
 }
@@ -98,6 +98,8 @@ nav {
 /*aquí termina fila 1*/
 
 /*Aquí comienza fila 2*/
+
+
 
 .tituloResumenes {
   text-align: center;
@@ -215,6 +217,31 @@ margin-right: 20px;
 /*Aquí termina fila 4*/
 
 
+/*Aquí comienza footer*/
+
+ .textoFooter {
+
+text-align: center;
+
+ }
+/*Aquí termina footer*/
+
+.grillaResumenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-gap: 15px;
+
+  div {
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
+
+
+
 /*Inician mediaqueries*/
 
 @media only screen and (min-width: 320px) and (max-width: 760px){
@@ -246,27 +273,46 @@ margin-right: 20px;
 
 }
 
+
+.grillaResumenes {
+
+grid-template-columns: 1fr;
+
+}
+
 }
 
 
+@media only screen and (min-width: 760px) and (max-width: 1020px) {
+
+.grillaResumenes {
+
+grid-template-columns: 1fr 1fr;
+
+
+
+
+}
+
+
+
+}
 
 
 
 
 /*Terminan mediaqueries*/
 
-/*Inicio Footer*/
 
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
+.grillaResumenes {
 
-/*Fin Footer*/
+p {
 
+  text-align: center;
 
+}
+
+}
 
 
 
@@ -296,18 +342,20 @@ padding: 10px;
   }
 }
 
-.grillaResumenes {
-  display: grid;
-  grid-template-columns: 1fr;
+.comprar {
 
-  grid-gap: 15px;
+  transform: scale(1);
+  transition: all 1.5s;
 
-  div {
-    p {
-      font-size: 30px;
-    }
-  }
 }
+
+.comprar:hover {
+
+transform: scale(1.2);
+
+}
+
+
 
 .resumen2 {
   p {
@@ -315,6 +363,7 @@ padding: 10px;
   }
 
   text-align: center;
+  margin-left: 20px;
 }
 
 .guia {
@@ -399,29 +448,7 @@ padding: 10px;
   margin-right: 90px;
 }
 
-.formulario3 {
-  display: flex;
-  justify-content: center;
 
-  a {
-    background-color: rgba(138, 239, 100, 255);
-    padding: 5px;
-    text-decoration: none;
-  }
-
-  a:hover {
-    background-color: grey;
-  }
-
-  form {
-    padding: 20px;
-
-    border: 5px solid black;
-
-    border-radius: 15px;
-    width: 40%;
-  }
-}
 
 .enviarContacto {
   text-align: center;
@@ -468,3 +495,55 @@ padding: 10px;
   box-shadow: none;
 }
 
+/*Inicia formulario de contacto*/
+
+.formulario {
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 0 1.5em;
+
+border: 3px solid black;
+border-radius: 20px;
+box-shadow: 0 0 20px 0 grey;
+
+}
+
+.informacion-contacto {
+ 
+.espiral {
+text-align: center;
+
+}
+
+h4 {
+
+  text-align: center;
+}
+
+
+
+
+}
+
+input {
+
+width: 260px;
+
+}
+
+
+/*Fin formulario de contacto*/
+
+
+
+/*Inicio Footer*/
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/*Fin Footer*/

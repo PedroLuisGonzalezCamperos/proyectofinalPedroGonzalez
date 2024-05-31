@@ -3,9 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="datos de contacto para solicitar información de material académico de electromagnetismo y clases online ">
-    <meta name="keywords" content="datos de contacto para solicitar clases online">
+    <meta
+      name="description"
+      content="datos de contacto para solicitar información de material académico de electromagnetismo y clases online "
+    />
+    <meta
+      name="keywords"
+      content="datos de contacto para solicitar clases online"
+    />
     <title>Contactos De espiral ciencias</title>
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
 
     <!--Comienzo de cdnj para iconos-->
 
@@ -29,7 +36,7 @@
     <!--Fin de bootstrap-->
 
     <!--Comienzo de css-->
-    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../estilos.css" />
     <!--Comienzo de css-->
   </head>
   <body>
@@ -37,7 +44,12 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <img src="../Assets/LOGO_EC_By_BlushieBloom_TRANSPARENCIA (3).png" width="90px" height="auto" alt="logo">
+        <img
+          src="../assets/LOGO_EC_By_BlushieBloom_TRANSPARENCIA (3).png"
+          width="90px"
+          height="auto"
+          alt="logo"
+        />
         <button
           class="navbar-toggler"
           type="button"
@@ -51,11 +63,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="textoNavbar nav-link active"  href="../index.html">Inicio</a>
-            <a class="textoNavbar nav-link" href="../Paginas/clasesparticulares.html">clases Online</a>
-            <a class="textoNavbar nav-link" href="../Paginas/resumenes.html">Resúmenes</a>
-            <a class="textoNavbar nav-link" href="../Paginas/guias.html">Guías</a>
-            <a class="textoNavbar nav-link" href="../Paginas/contactos.html">Contactos</a>
+            <a class="textoNavbar nav-link active" href="../index.html"
+              ><strong>Inicio</strong></a
+            >
+            <a
+              class="textoNavbar nav-link"
+              href="../Paginas/clasesparticulares.html"
+              ><strong>clases Online</strong></a
+            >
+            <a class="textoNavbar nav-link" href="../Paginas/resumenes.html"
+              ><strong>Resúmenes</strong></a
+            >
+            <a class="textoNavbar nav-link" href="../Paginas/guias.html"
+              ><strong>Guías</strong></a
+            >
+            <a class="textoNavbar nav-link" href="../Paginas/contactos.html"
+              ><strong>Contactos</strong></a
+            >
           </div>
         </div>
       </div>
@@ -68,90 +92,70 @@
 
     <h2 class="text-center"><strong>Contáctanos</strong></h2>
     <p class="text-center fs-3 presentacionContactos">
-     Si tienes dudas sobre nuestros servicios no dudes en contactarnos y te brindaremos la mejor atención
+      Si tienes dudas sobre nuestros servicios no dudes en contactarnos y te
+      brindaremos la mejor atención
     </p>
 
     <!--Aquí termina presentación-->
 
-    <!--Aquí comienza grilla contactos-->
+    <!--Aquí comienza formulario-->
 
-    <div class=" formulario3">
-      <form>
-        <fieldset>
-          <legend>Formulario de Contacto</legend>
-          <div class="mb-3">
-            <label for="disabledTextInput" class="form-label"
-              >Introduzca primer nombre</label
-            >
-            <input
-              type="text"
-              id="disabledTextInput"
-              class="form-control"
-              placeholder="nombre"
-            />
-          </div>
+    <div class="formulario">
+      <h2>Contactanos</h2>
+      <div class="contenidoFormulario">
+        <form action="">
+          <p>
+            <label for="nombre">nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+          </p>
+          <p>
+            <label for="correo">Correo electrónico</label>
+            <input type="email" name="correo" id="correo" />
+          </p>
 
-          <div class="mb-3">
-            <label for="disabledTextInput" class="form-label"
-              >Introduzca segundo nombre</label
-            >
-            <input
-              type="text"
-              id="disabledTextInput"
-              class="form-control"
-              placeholder="nombre"
-            />
-          </div>
+          <p>
+            <label for="telefono">Número de Teléfono</label>
+            <input type="tel" name="telefono" id="telefono" />
+          </p>
 
-          <div class="mb-3">
-            <label for="disabledTextInput" class="form-label"
-              >Introduzca correo electrónico</label
-            >
-            <input
-              type="text"
-              id="disabledTextInput"
-              class="form-control"
-              placeholder="correo electrónico"
-            />
-          </div>
+          <p>
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto" id="asunto" />
+          </p>
 
-          <div class="cajaTexto">
-<textarea name="" id="" cols="55" rows="7" maxlength="150">Escribe tu mensaje</textarea><br><br>
-</div>
-        
+          <p>
+            <label for="mensaje">Escribe tu mensaje</label><br>
+            <textarea name="mensaje" rows="5"></textarea>
+          </p>
+        </form>
+      </div>
+      <div class="informacion-contacto">
+      <h4>Información Contactos</h4>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i>Calle la Plata CABA</li>
+        <li><i class="fa-solid fa-phone"></i>500-123456</li>
+        <li><i class="fa-solid fa-envelope"></i>contac@website.com</li>
+      </ul>
+      <p>Gracias por comunicarte con nosotros en la brevedad posible uno de nuestros tutores se estará comunicando coontigo.</p>
 
-         
-          <div class="enviarContacto">
-            <a href="#">Enviar</a>
-          </div>
-
-
-        </fieldset>
-      </form>
+      <p class="espiral">Espiral Ciencias</p>
+      <div class="comprar">
+        <a href="contactos.html">Información</a>
+      </div><br>
     </div>
-
+    </div>
     <br /><br />
 
-    <!--Aquí termina grilla contactos-->
+    <!--Aquí termina formulario-->
 
     <!--footer inicia-->
 
-    <footer class="row footer-responsive bg-secondary" style="height: 110px">
-      <div class="col-md-4 col-lg-4 d-flex align-items-center" bg-secondary>
-        <img
-          src="../Assets/LOGO_EC_By_BlushieBloom_TRANSPARENCIA (3).png"
-          width="90px"
-          alt="logo"
-        />
+    <footer class="">
+      <div class="">
+        <p class="textoFooter">Sitio creado por Aulas Digitales PC</p>
       </div>
 
-      <div class="col-md-4 col-lg-4 m-auto bg-secondary">
-        <p class="fs-3 text-center">Code licensed MIT, copyrigth</p>
-      </div>
-
-      <div
-        class="col-md-4 col-lg-4 d-flex justify-content-around m-auto bg-secondary"
-      >
+      <div class="">
         <i class="fa-brands fa-facebook fa-2x"></i>
         <i class="fa-brands fa-instagram fa-2x"></i>
         <i class="fa-brands fa-whatsapp fa-2x"></i>
