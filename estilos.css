@@ -50,7 +50,7 @@ nav div {
   grid-template-rows: 450px;
 }
 .grilla1 .imagenClasesparticulares {
-  background-image: url(assets/chica\ recibiendo\ clase\ online.jpg);
+  background-image: url(Assets/chica\ recibiendo\ clase\ online.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 50px;
@@ -79,7 +79,7 @@ nav div {
   grid-template-rows: 450px;
 }
 .grilla2 .imagenResumenes {
-  background-image: url(/assets/imagen\ nueva\ resumenes.jpg);
+  background-image: url(/Assets/imagen\ nueva\ resumenes.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 50px;
@@ -108,7 +108,7 @@ nav div {
   grid-template-rows: 450px;
 }
 .grilla3 .imagenGuias {
-  background-image: url(./assets/imagenguias.jpg);
+  background-image: url(./Assets/imagenguias.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 50px;
@@ -137,7 +137,7 @@ nav div {
   grid-template-rows: 450px;
 }
 .grilla4 .imagenContactos {
-  background-image: url(assets/Imagen\ contactos.jpg);
+  background-image: url(Assets/Imagen\ contactos.jpg);
   background-size: cover;
   background-position: center;
   margin-right: 50px;
