@@ -108,7 +108,7 @@ nav div {
   grid-template-rows: 450px;
 }
 .grilla3 .imagenGuias {
-  background-image: url(/assets/imagen\ para\ guías.jpg);
+  background-image: url(./assets/imagenguias.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 50px;
