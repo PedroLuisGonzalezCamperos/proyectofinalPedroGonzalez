@@ -79,7 +79,7 @@ nav div {
   grid-template-rows: 450px;
 }
 .grilla2 .imagenResumenes {
-  background-image: url(assets/imagen\ nueva\ resumenes.jpg);
+  background-image: url(/assets/imagen\ nueva\ resumenes.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 50px;
@@ -108,7 +108,7 @@ nav div {
   grid-template-rows: 450px;
 }
 .grilla3 .imagenGuias {
-  background-image: url('./assets/imagenguias.jpg');
+  background-image: url(./assets/imagenguias.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 50px;
