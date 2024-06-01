@@ -68,15 +68,16 @@ nav {
   grid-template-rows: 450px;
 
   .imagenClasesparticulares {
-    padding: 10px;
-    background-image: url(Assets/chica\ recibiendo\ clase\ online\ 2.jpg);
-    background-size: cover;
-    background-position: center;
 
-    border-radius: 50px;
-    margin-left: 50px;
+   background-image: url(assets/chica\ recibiendo\ clase\ online.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 50px;
+   margin-left: 50px;
     
   }
+
+ 
 
   .textoClasesparticulares {
     display: flex;
@@ -95,6 +96,8 @@ nav {
 
 }
 
+
+
 /*aquí termina fila 1*/
 
 /*Aquí comienza fila 2*/
@@ -111,7 +114,7 @@ nav {
   grid-template-rows: 450px;
 
   .imagenResumenes {
-    background-image: url(Assets/imagen\ nueva\ resumenes.jpg);
+    background-image: url(assets/imagen\ nueva\ resumenes.jpg);
     background-size: cover;
     background-position: center;
    
@@ -147,7 +150,7 @@ nav {
     grid-template-rows: 450px;
   
     .imagenGuias {
-      background-image: url(Assets/imagen\ para\ guías.jpg);
+      background-image: url(assets/imagen\ para\ guías.jpg);
       background-size: cover;
       background-position: center;
 
@@ -186,7 +189,7 @@ margin-right: 20px;
     grid-template-rows: 450px;
   
     .imagenContactos {
-      background-image: url(Assets/Imagen\ contactos.jpg);
+      background-image: url(assets/Imagen\ contactos.jpg);
       background-size: cover;
       background-position: center;
 
@@ -547,3 +550,5 @@ footer {
 }
 
 /*Fin Footer*/
+
+

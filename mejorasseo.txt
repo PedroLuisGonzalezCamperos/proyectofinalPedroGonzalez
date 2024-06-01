@@ -1,0 +1,9 @@
+Tecnícas de Seo aplicadas en mi proyecto final
+
+1) En cada página se colocaron meta name="description" donde se hace une breve descripción del contenido de la página.
+
+2) En cada página se colocaron meta name="keywords" con palabras claves relacionadas con el contenido de cada página.
+
+3) Al inicio de cada página se hizo una descripción puntual del contenido de la página.
+
+4) Creación de un archivo xml Sitemap.
